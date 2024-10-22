@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Alvima Dwi Mursa</h1>
+        <p>Mahasiswa</p>
+    </header>
+    <main>
+        <section>
+            <h2>hobi saya bermain alat music</h2>
+            <p>saya suka band</p>
+        </section>
+        <section>
+            <h2>Pendidikan</h2>
+            <ul>
+                <li>Sma 1 solsel 1</li>
+                <li>uneversitas perintis 2</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Pengalaman Kerja</h2>
+            <ul>
+                <li>Pengalaman Kerja 1</li>
+                <li>Pengalaman Kerja 2</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Nama Anda</p>
+    </footer>
+</body>
+</html>
