@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restoran Favoritku</title>
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6347; /* Warna latar belakang header */
+            color: purple;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        header img {
+            width: 50px; /* Ukuran logo */
+            height: auto;
+            margin-right: 15px;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: white;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        main {
+            padding: 20px;
+        }
+        img {
+           
+            max-width: 600px;
+            height: auto;
+            border-radius: 10px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 15px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: left;
+        }
+        footer h3 {
+            margin-top: 0;
+        }
+        footer p, footer form {
+            margin: 10px 0;
+        }
+        footer form label {
+            display: block;
+            margin: 5px 0;
+        }
+        footer form input[type="text"], 
+        footer form input[type="date"] {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        footer form input[type="radio"], 
+        footer form input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        footer form input[type="submit"] {
+            background-color: #ff6347;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer form input[type="submit"]:hover {
+            background-color: #ff4500;
+        }
+        footer div.social-icons {
+            margin-top: 15px;
+        }
+        footer div.social-icons a img {
+            margin: 0 10px;
+        }
+        iframe {
+            width: 100%;
+            height: 300px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="https://static8.depositphotos.com/1533030/997/v/950/depositphotos_9975181-stock-illustration-restaurant-icon.jpg" width"=50"><!-- Ganti "logo.png" dengan path logo Anda -->
+        <h1>Restoran Favorit DEN!!!</h1>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#about">About Us</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Konten Utama -->
+    <main>
+        <section id="home">
+            <h2>Selamat Datang di Restoran Dedek aja</h2>
+            <p>Restoran ini lamak bana,cobain deh!!.</p>
+            <img src="https://static8.depositphotos.com/1533030/997/v/950/depositphotos_9975181-stock-illustration-restaurant-icon.jpg" width="300"Gambar Restoran" style="display: block; margin: 0 auto;">
+        </section>
+
+        <section id="menu">
+            <h2>Menu</h2>
+            <!-- Tabel Menu -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Gambar</th>
+                        <th>Nama Makanan</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="https://static.promediateknologi.id/crop/0x0:0x0/750x500/webp/photo/p1/1052/2024/04/24/Snapinstaapp_121478665_1077473159338481_3173308865015286615_n_1080-4195561635.jpg" width="40"></td>
+                        <td>roti canai</td>
+                        <td>Rp15.000</td>
+                    </tr>
+
+                    <tr>
+                        <td><img src="https://asset-2.tstatic.net/jambi/foto/bank/images/resep-pempek-tanpa-ikan.jpg" width="50"></td>
+                        <td>pempek</td>
+                        <td>Rp10.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://asset-a.grid.id//crop/0x0:0x0/700x465/photo/bobofoto/original/6709_foto-diahdidicom.jpg" width="50"></td>
+                        <td>Pangek Pisang</td>
+                        <td>Rp35.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://thumb.viva.id/intipseleb/663x372/2022/05/14/627e91a213404-nasi-lemak.jpg" width="50"></td>
+                        <td>nasi lemak</td>
+                        <td>Rp15.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+ <table>
+                <thead>
+                    <tr>
+                        <th>Gambar</th>
+                        <th>Nama Minuman</th>
+                        <th>Harga</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="https://sulanginaja.com/wp-content/uploads/2022/08/Orang_Tua_Anggur_Merah_1000px.jpg" width="50"></td>
+                        <td>anggur merah</td>
+                        <td>Rp65.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://scontent.fcgk22-2.fna.fbcdn.net/v/t1.18169-9/22196307_10155646485956877_4362911880528681741_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=7b2446&_nc_ohc=9t9BtWTTydcQ7kNvgEK_oyx&_nc_zt=23&_nc_ht=scontent.fcgk22-2.fna&oh=00_AYB63d_ofh9USqIhqd79qhXf4X6LB5FppVNQqPjP1X15gQ&oe=675E52CA" width="20"></td>
+                        <td>shoju</td>
+                        <td>Rp98.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://res.cloudinary.com/dk0z4ums3/image/upload/v1594099343/attached_image/ini-manfaat-konsumsi-kopi-hitam-dan-efek-sampingnya-untuk-kesehatan-0-alodokter.jpg" width="50"></td>
+                        <td>kopi hitam</td>
+                        <td>Rp8.000</td>
+                    </tr>
+                    <tr>
+                        <td><img src="https://www.halusciptanadi.co.id/~img/jamu_kuat_pria-1f0af-3426_339-twebp80.webp" width="50"></td>
+                        <td>jamu kuat</td>
+                        <td>Rp25.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        <section id="testimonials">
+            <h2>Testimoni Orang Yang Sok Tau</h2>
+            <ol>
+                <li>"Makanan lamak bana, pelayanan cepat dan sangat tidak ramah!" – cingkariak</li>
+                <li>"Tempat yang sempurna buat bawa selingkuhan." – cimoyt</li>
+            </ol>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <h3>Kontak den</h3>
+        <p>Alamat: Jl. cadiak pandai No. 480, wakanda</p>
+        <p>Telepon: 082284575803  Email: alvin.mursa03@gmail.com</p>
+        
+        <!-- Isi Formulir Kok Ka balanjo!!! -->
+        <h3>Isi Formulir Kok Ka balanjo!!!</h3>
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="date">Tanggal Reservasi:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label>Jumlah Tamu:</label>
+            <input type="radio" id="46pax" name="guests" value="40" required> 47 Orang<br>
+            <input type="radio" id="490pax" name="guests" value="89"> 84 Orang<br>
+            <input type="radio" id="morepax" name="guests" value="more"> Lebih dari 420 Orang<br><br>
+
+            <input type="checkbox" id="terms" name="terms" required> Saya setuju dengan syarat dan ketentuan<br><br>
+
+            <input type="submit" value="Kirim">
+        </form>
+
+        <!-- Tautan Media Sosial -->
+        <div class="social-icons">
+            <h3>Ikuti  Den Di Media Sosial</h3>
+            <a href="https://www.facebook.com/restoranmu" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="30" height="30">
+            </a>
+            <a href="https://www.instagram.com/alvinmursa_" target="_blank">
+                <img src="https://img.freepik.com/free-vector/instagram-icon_1057-2227.jpg?t=st=1731657813~exp=1731661413~hmac=575b79861a28fd11213d8649b28d3828e582a85d9169ecb67053a3a421f4f784&w=996" alt="alvinmursa_" width="30" height="30">
+            </a>
+            <a href="https://twitter.com/restoranmu" target="_blank">
+                <img src="https://akcdn.detik.net.id/visual/2023/07/24/logo-twitter-terbaru_169.jpeg?w=650&q=90" alt="Twitter" width="50" height="30">
+            </a>
+        </div>
+
+        <!-- Google Maps Iframe -->
+        <h3>Lokasi den</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15957.548928044058!2d100.32022565603263!3d-0.8422637600402599!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd4c1e86c389e59%3A0xf179521d422140c!2sWarmindo%20Luna!5e0!3m2!1sid!2sid!4v1731659501522!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+
+</body>
+</html>
